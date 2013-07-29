@@ -1,10 +1,8 @@
 name: MetaGame
 main: no.runsafe.metagame.Plugin
 version: 1.0.@BUILD@
-authors: []
-depend: []
-description:
+authors: [mortenn,Kruithne]
+description: A framework for building minigames in minecraft.
 commands:
-  something:
-    description:
-    aliases: []
+  game:
+    description: A collection of commands for managing games.
