@@ -11,5 +11,5 @@ public interface IField
 	public BoundingBox getBounds();
 	public List<RunsafeLocation> getSpawnPoints();
 	public List<RunsafePlayer> getContenders();
-	public List<RunsafePlayer> getSpectators();
+	public void ejectPlayersTo(RunsafeLocation location, String message);
 }
