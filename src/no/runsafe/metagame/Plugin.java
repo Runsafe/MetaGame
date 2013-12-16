@@ -7,7 +7,7 @@ import no.runsafe.metagame.event.ServerReady;
 public class Plugin extends RunsafePlugin
 {
 	@Override
-	protected void PluginSetup()
+	protected void pluginSetup()
 	{
 		addComponent(ServerReady.class);
 		addComponent(GameArgument.class);
